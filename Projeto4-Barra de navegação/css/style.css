@@ -1,0 +1,68 @@
+/* 1. RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* 2.ESTILOS GERAIS */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* 3. ESTILO PARA O CONTEUDO DA PÁGINA */
+.content {
+    padding: 20px;
+    text-align: center;
+
+}
+
+/* 4.ESTILIZAÇÃO DE CABEÇALHO DE PAGINA - HEADER */
+.main-header {
+    background-color: #ffffff;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 5.ESTILIZAÇÃO DA LOGO */
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+/* 6.ESTILO DA NAVEGAÇÃO */
+.main-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+   
+
+}
+
+/* 7.ESTILIZAÇÃO DOS LINKS */
+.main-nav a {
+    text-decoration: none;
+    color: #555;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 5px;
+    transition: color 0.3s, border-bottom-color 0.3s
+    
+}
+   
+/* 8. ESTILIZAÇÃO DO EFEITO HOVER */
+.main-nav a:hover {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    
+}
